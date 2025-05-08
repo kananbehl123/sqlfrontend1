@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>E-Commerce Delivery Dashboard</title>
+  <link rel="stylesheet" href="interface.css" />
+</head>
+<body>
+  <header>
+    <h1>E-Commerce Delivery Analytics</h1>
+    <nav>
+      <ul>
+        <li><a href="#orders">Orders</a></li>
+        <li><a href="#customers">Customers</a></li>
+        <li><a href="#insights">Insights</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Orders Section -->
+    <section id="orders">
+      <h2>Orders Overview</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Order ID</th>
+            <th>Platform</th>
+            <th>Value (INR)</th>
+            <th>Delivery Time</th>
+            <th>Rating</th>
+            <th>Refund</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ORD101</td>
+            <td>Blinkit</td>
+            <td>750.00</td>
+            <td>35 min</td>
+            <td>4</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>ORD102</td>
+            <td>Swiggy</td>
+            <td>1200.00</td>
+            <td>40 min</td>
+            <td>2</td>
+            <td>Yes</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Customers Section -->
+    <section id="customers">
+      <h2>Customer Directory</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>City</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Riya Sharma</td>
+            <td>riya.sharma@example.com</td>
+            <td>9876543210</td>
+            <td>Delhi</td>
+          </tr>
+          <tr>
+            <td>Aman Verma</td>
+            <td>aman.verma@example.com</td>
+            <td>9876543211</td>
+            <td>Mumbai</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Insights Section -->
+    <section id="insights">
+      <h2>Analytics Summary</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Top Platform</h3>
+          <p>Swiggy Instamart</p>
+        </div>
+        <div class="card">
+          <h3>Average Order Value</h3>
+          <p>₹525.45</p>
+        </div>
+        <div class="card">
+          <h3>Frequent Refunds</h3>
+          <p>JioMart</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made by Kanan | PostgreSQL + HTML + CSS Project</p>
+  </footer>
+</body>
+</html>
